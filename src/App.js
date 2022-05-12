@@ -1,11 +1,10 @@
+import AllRoutes from './AllRoutes/AllRoutes';
 import './App.css';
-import Homepage from './Homepage/Homepage';
 
 function App() {
   return ( 
-  <div class="tab-container">
-
-    <Homepage />
+  <div className="tab-container">
+    <AllRoutes />
     </div>
   );
 }
