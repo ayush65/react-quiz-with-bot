@@ -13,12 +13,8 @@ function HomepageCard() {
         </div>
 
         <div className="navbar-div-first">
-        <img src="https://w0.peakpx.com/wallpaper/232/450/HD-wallpaper-himym-how-i-met-your-mother-show.jpg" alt=""  className="img-container"/>
-        <Link to="/quizinstruction1" className="quiz-button">Play Now</Link>
-        </div>
-        <div className="navbar-div-first">
             <img src="https://www.uphe.com/sites/default/files/styles/scale__344w_/public/SuitsSeasonSeven_PosterArt.png" alt="" className="img-container" />
-            <Link to="/quizinstruction2" className="quiz-button">Play Now</Link>
+            <Link to="/quizinstruction1" className="quiz-button">Play Now</Link>
         </div>
     </div>
     </div>

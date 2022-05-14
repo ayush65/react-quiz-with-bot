@@ -22,11 +22,6 @@ const  Navbar = () => {
                 >Friends</Link>
                 </li>
                 <li className="navbar-links">
-                    <Link to="/quizinstruction1"
-                     className="navbar-links"
-                     >h.i.m.y.m</Link>
-                </li>
-                <li className="navbar-links">
                 <Link to="/quizinstruction2"
                  className="navbar-links"
                 >Suits</Link>
