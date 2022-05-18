@@ -61,5 +61,3 @@ export const reducerFunc = (statetotal, action) => {
     value: 0,
     allquestion: 3,
   };
-
-  

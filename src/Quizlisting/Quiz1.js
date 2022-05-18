@@ -7,24 +7,21 @@ import { useQuiz } from '../Context/quiz-context'
 
 function Quizlisting() {
 
-
-  const [timer, setTimer] = useState(45);
+  const [timer , setTimer ] = useState(45);
 
   const intervalFunction = (times) => {
     let j = 0;
     for (let i = times; i >= 0; i--) {
       j = j + 1;
       setTimeout(() => {
-        //console.log(i);
+        console.log(i);
         setTimer(i);
       }, j * 1000);
     }
-
-
   };
 
   useEffect(() => {
-    intervalFunction(45);
+    intervalFunction();
   }, []);
   const { statetotal} = useQuiz();
   const { stateDispatch } = useQuiz();
