@@ -1,8 +1,15 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
+import "../Homepage/Homepage.css"
+import HomepageCard from './HomepageCard/HomepageCard'
 
 function Homepage() {
   return (
-    <div>Homepage</div>
+    <div>
+        <Navbar />
+        <HomepageCard />
+
+    </div>
   )
 }
 
