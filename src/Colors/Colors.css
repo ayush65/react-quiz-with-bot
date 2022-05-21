@@ -1,6 +1,6 @@
 
 :root {
-    --primary-color : #001B2E ;
+    --primary-color : #2c3c54   ;
     --white: white ;
     --tertiary-color : #023E8A;
     --navbar-hover: #AED1E6;
@@ -8,7 +8,7 @@
     --navbar-shad: rgba(0, 0, 0, 0.3);
     --border-color: #777;
     --card-shadow: rgba(0, 0, 0, .2);
-    --home-color : #adb5bd;
+    --home-color : #f4c484 ;
 }
 *{
     margin: 0;

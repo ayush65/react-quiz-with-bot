@@ -17,8 +17,8 @@
     width: 100%;
     font-size: 3rem;
     text-decoration: none;
-    background-color: var(--primary-color);
-    color: var(--white);
+    background-color: var(--home-color);
+    color: var(--primary-color);
 }
 .quiz-button:hover{
     color: var(--border-color);
@@ -26,22 +26,6 @@
 .img-container{
     width: 100%;
     height: 100%;
-}
-.homepage-button{
-    width: 15rem;
-    height: 3rem;
-    right: 50%;
-    left: 40%;
-    top: 15%;
-    position: absolute;
-    font-size: 2rem;
-    text-decoration: none;
-    background-color: var(--primary-color);
-    color: var(--white);
-    text-align: center;
-}
-.navbar-div-first{
-    border: 5rem solid var(--primary-color);
 }
 @media (max-width: 500px) {
     .homepage-card-container{

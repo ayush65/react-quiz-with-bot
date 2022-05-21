@@ -1,0 +1,24 @@
+.btn-red{
+    background-color: var(--primary-color);
+}
+.question-page-submit{
+    background-color: var(--end-button);
+    width: 3rem;
+    text-align: center;
+}
+.exit-button{
+    width: 3rem;
+    height: 5rem;
+    font-size:  3rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-decoration: none;
+}
+.question-page-components{
+    width: 80%;
+    height: 110rem;
+}
+.score-quiz{
+    font-size: 3rem;
+    margin: 2rem;
+}

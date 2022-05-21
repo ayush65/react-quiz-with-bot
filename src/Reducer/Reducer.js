@@ -49,6 +49,14 @@ export const reducerFunc = (statetotal, action) => {
           value: 0
         };
       }
+      case "EXIT": {
+        return {
+          ...statetotal,
+          total_friends: 0,
+          total_suits:0,
+        };
+      }
+
       default:
         return statetotal;
     }
@@ -59,5 +67,5 @@ export const reducerFunc = (statetotal, action) => {
     total_friends: 0,
     total_suits:0,
     value: 0,
-    allquestion: 3,
+    allquestion: 10,
   };
