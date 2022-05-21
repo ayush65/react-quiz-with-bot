@@ -2,11 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "./quizinstructions.css"
 import Navbar from "../Navbar/Navbar"
-import { useQuiz } from '../Context/quiz-context';
 
 function Quizinstructions() {
-
-  const { stateDispatch } = useQuiz();
 
   return (
       <div>
@@ -35,7 +32,7 @@ function Quizinstructions() {
               Once you click on your answer you will be redirected to the next answer
             </h2>
           </ul>
-          <Link  to="/quiz1" onClick={() => {stateDispatch({ type: "obj1" }) ; stateDispatch({ type: "INCREMENT"})} } className="quiz-start-button button-ref">Start</Link>
+          <Link  to="/quiz"  className="quiz-start-button button-ref">Start</Link>
           <Link  to="/" className="quiz-go-back-button button-ref">Go Back</Link>
     </div>
     </div>
