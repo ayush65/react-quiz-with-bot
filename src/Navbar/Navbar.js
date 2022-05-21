@@ -21,13 +21,13 @@ const  Navbar = () => {
 
                 <li className="navbar-links">
                 <Link  to="/quizinstruction"
-                 onClick={() => {stateDispatch({ type: "obj1" }) ; stateDispatch({type : "INCREMENT"})}  }
+                 onClick={() => {stateDispatch({ type: "obj1" }) ; stateDispatch({type : "INCREMENT"}) ;stateDispatch({ type: "EXIT" })}  }
                 className="navbar-links"
                 >Friends</Link>
                 </li>
                 <li className="navbar-links">
                 <Link to="/quizinstruction"
-                onClick={() => {stateDispatch({ type: "obj2" }); stateDispatch({ type : "INCREMENT"})}}
+                onClick={() => {stateDispatch({ type: "obj2" }); stateDispatch({ type : "INCREMENT"}) ;stateDispatch({ type: "EXIT" })}}
                  className="navbar-links"
                 >Suits</Link>
                 </li>
